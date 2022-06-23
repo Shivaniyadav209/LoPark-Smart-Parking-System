@@ -1,0 +1,12 @@
+.left{
+    display: inline-block;
+    top:10px;
+    left:40px;
+}
+.left img{
+    width:136px;
+}
+.left div{
+    text-align: right;
+    line-height: 15px;
+}

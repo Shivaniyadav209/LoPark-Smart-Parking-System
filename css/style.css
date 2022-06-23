@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+
+.logo {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 33%;
+    /* it should be in round */
+    border-radius: 100px;
+    border: 4px solid white;
+}
+
+.nav-list {
+    width: 55%;
+    /* background-color: black; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 15px 32px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.nav-list li a:hover {
+    text-decoration: none;
+    color: rgb(255, 0, 102);
+}
+
+.rightnav {
+    /* background-color: rgb(185, 127, 255); */
+    /* so that the content the search bar is in the right */
+    text-align: right;
+    /* so that the violet color is in the another half */
+    width: 30%;
+    padding: 0px 23px;
+}
+
+#search {
+    padding: 6px;
+    font-size: 17px;
+    border: 2px solid black;
+    border-radius: 9px;
+}
+
+.background {
+    background: rgba(0, 0, 0, 0.7) url('../img/Reasons-to-go-to-college.webp');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.box-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    max-width: 50%;
+    margin: auto;
+    /* so that the all the content be in the middle the image and the content */
+    height: 80%;
+    /* if required then use the font family */
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+}
+
+.firstSection {
+    height: 100vh;
+}
+
+.firsthalf {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.secondhalf {
+    width: 30%;
+}
+
+.secondhalf img {
+    width: 300px;
+    /* width:70%; */
+    padding: 4px 16px;
+    border: 2px solid white;
+    /* if you want the rounded image */
+    border-radius: 50px;
+}
+
+.textbig {
+    color: pink;
+    font-size: 30px;
+    text-align: center;
+}
+
+.textsmall {
+    font-size: 20px;
+    margin:20px;
+}
+.btn{
+    padding:8px 20px;
+    margin:7px;
+    border:2px solid white;
+    border-radius: 8px;
+    background: none;
+    color: white;
+    cursor: pointer;
+    /* font-size: 18px; */
+}
+.btn-sm{
+       padding:6px 10px;
+       vertical-align: middle;
+}
+.section{
+    height:500px;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    font-family: 'Ubuntu',sans-serif;
+}
+.paras{
+    padding:65px;
+}
+.left{
+   
+    flex-direction: row-reverse;
+}
+.secTag{
+    font-size: 40px;
+}
+.secSubTag{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.library{
+    padding:5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.heading{
+    padding:10px;
+}
+.thumbnail-left img{
+    width:350px;
+}
+.thumbnail-right img{
+    width:400px;
+}
+.text-footer{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+/* .burger{
+
+} */
+/* .line{
+    width:33px;
+    background-color: white;
+    height:4px;
+    margin:3px 3px; */
+
+/* @media only screen and (max-width:1250px){
+    .navlist{
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction: column; 
+        transition: all 0.3s ease-out;
+    }
+    .rightnav{
+        text-align: center;
+    }
+    #search{
+        width:100%;
+    }
+    .burger{
+        display:block;
+    }
+    .h-nav-resp{
+        height:72px;
+
+    }
+    .v-class-resp{
+        opacity:0;
+    }
+
+} */

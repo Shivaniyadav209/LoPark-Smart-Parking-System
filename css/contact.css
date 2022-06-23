@@ -1,0 +1,101 @@
+body{
+ background-color: gray;
+}
+.right h1{
+    color: purple;
+        text-align: center;
+        padding-top: 20px;
+}
+.admission h2{
+    color:purple;
+}
+h1{
+    color: purple;
+        text-align: center;
+        padding-top: 20px;
+}
+.center h2{
+    margin:28px auto;
+    text-align: center;
+    justify-content: center;
+}
+.container{
+    height:500px;
+    display:flex;
+    align-items: center;
+    justify-content: left;
+    max-width: 80%;
+    margin: auto;
+    font-family: 'Ubuntu',sans-serif;
+}
+.secondhalf {
+    width: 30%;
+}
+
+.secondhalf img {
+    text-align: center;
+    justify-content: center;
+    width: 300px;
+    /* width:70%; */
+    padding: 4px 16px;
+    border: 2px solid white;
+    /* if you want the rounded image */
+    border-radius: 50px;
+}
+.admission{
+    text-align: center;
+    justify-content: center;
+    margin:10px auto;
+}
+.right {
+    /* border: 2px solid yellow; */
+    margin: 106px 80px;
+    padding: 75px;
+    width: 33%;
+    position: absolute;
+    right: 34px;
+    top: 10px;
+    border-radius: 28px;
+
+}
+.form{
+    
+    max-width: 500px;
+    margin: 42px auto;
+}
+.forminput{
+    margin:14px;
+    padding: 5px 3px;
+    width:100%;
+    /* padding:5px; */
+    font-size: 19px;
+    border:2px solid grey;
+    border-radius: 6px;
+}
+/* .btn-dark{
+    color: black;
+    padding: 5px 3px;
+    border-radius: 10px;
+    border: 2px solid grey;
+    background-color: #ffffff;
+    margin-left:200px;
+    width:100px;
+    /* margin-right:150px; }*/
+    .btn-dark {
+        margin-left:200px;
+        background-color: black;
+        color: white;
+        padding: 10px 14px;
+        border: 2px solid gray;
+        border-radius: 15px;
+        font-size: 17px;
+        cursor: pointer;
+        width:100px;
+
+    }
+
+    .btn-dark:hover {
+        background-color: rgb(255, 220, 196);
+    }
+
+
