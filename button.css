@@ -1,0 +1,45 @@
+.box-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    max-width: 50%;
+    margin: auto;
+    /* so that the all the content be in the middle the image and the content */
+    height: 80%;
+    /* if required then use the font family */
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+}
+.firstSection {
+    height: 100vh;
+}
+
+.firsthalf {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.textsmall {
+    font-size: 20px;
+    margin:20px;
+}
+.moreText{
+    display:none;
+}
+.read-more-btn{
+    /* background-color: black; */
+    width: 150px;
+    padding:8px 20px;
+    /* margin:7px; */
+    margin:35px;
+    border:2px solid white;
+    border-radius: 8px;
+    background: none;
+    color: white;
+    cursor: pointer;
+    /* font-size: 18px; */
+}
+.textsmall.show-more .moreText{
+    display: inline;
+}

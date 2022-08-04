@@ -2,28 +2,44 @@
     box-sizing: border-box;
 }
 .container{
-    width:900px;
+    /* width:900px; */
+    width:1500px;
     /* border:3px solid black; */
     margin:auto;
-    background:white
+    /* background:red; */
 }
 .course{
     /* border:2px solid aqua; */
     margin:12px 3px;
     padding:12px 3px;
-    background:white;
+    /* background:white; */
 }
 #Btech{
     float:left;
-    width:48%;
+    width:49%;
+    color: white;
 }#Mtech{
     float:left;
-    width:48%;
+    width:50%;
+    color: white;
 }
 #MBA{
     float:left;
-    width:100%;
-    clear: both;
+    /* width:48%; */
+    width:49%;
+    clear:left;
+    color: white;
+}
+#BCA{
+    float:left;
+    width:50%;
+    color: white;
+    /* clear: both; */
+}
+.background {
+    background: rgba(0, 0, 0, 0.7) url('../img/Reasons-to-go-to-college.webp');
+    background-size: cover;
+    background-blend-mode: darken;
 }
 p,h3{
     text-align: justify;
@@ -32,5 +48,10 @@ h1{
     margin:23px auto;
     width:445px;
     padding:34px;
-    color:purple;
+    color:white;
+}
+.right-footer{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: center;
 }
