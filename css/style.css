@@ -106,21 +106,22 @@
 .secondhalf img {
     width: 300px;
     /* width:70%; */
-    padding: 4px 16px;
+    padding: 4px 5px;
     border: 2px solid white;
     /* if you want the rounded image */
     border-radius: 50px;
 }
 
 .textbig {
+    line-height: 88px;
     color: pink;
-    font-size: 30px;
+    font-size: 33px;
     text-align: center;
 }
 
 .textsmall {
     font-size: 20px;
-    margin:20px;
+    margin:40px;
 }
 
 /* .btn{
