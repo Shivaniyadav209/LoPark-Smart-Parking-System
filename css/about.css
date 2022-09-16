@@ -26,12 +26,14 @@ html {
 }
 
 .about-section h1 {
+  text-align: center;
   color: black;
 }
 
 .about-section {
   padding: 50px;
-  text-align: center;
+  text-align: justify;
+  justify-content: center;
   background-color: gainsboro;
   color: black;
 }
