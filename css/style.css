@@ -150,6 +150,7 @@
     max-width: 80%;
     margin: auto;
     font-family: 'Ubuntu',sans-serif;
+    text-align: justify;
 }
 .paras{
     padding:65px;
@@ -159,16 +160,25 @@
     flex-direction: row-reverse;
 }
 .secTag{
+    color: rgb(226, 60, 88);
+    /* justify-content: center; */
+    text-align: center;
+    font-family: ui-rounded;
     font-size: 40px;
 }
 .secSubTag{
+    margin:30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .library{
-    padding:5px;
+    padding:35px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .heading{
+    color:rgb(107, 35, 156);
+    /* justify-content: center; */
+    text-align: center;
+    font-family: ui-rounded;
     padding:10px;
 }
 .thumbnail-left img{
