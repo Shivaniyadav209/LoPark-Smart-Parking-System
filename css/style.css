@@ -30,8 +30,8 @@
 
 .nav-list {
     /* width: 55%; */
-    width: 70%;
-    /* background-color: black; */
+    width: 90%;
+    background-color: black;
     display: flex;
     /* justify-content: center; */
     align-items: center;
@@ -70,7 +70,7 @@
 }
 
 .background {
-    background: rgba(0, 0, 0, 0.7) url('../img/Reasons-to-go-to-college.webp');
+    background: rgba(0, 0, 0, 0.7) url('../img/pexels-yurii-hlei-1545743.jpg');
     background-size: cover;
     background-blend-mode: darken;
 }
@@ -115,7 +115,7 @@
 .textbig {
     line-height: 88px;
     color: pink;
-    font-size: 33px;
+    font-size: 23px;
     text-align: center;
 }
 
@@ -137,7 +137,7 @@
 
 
 .btn-sm{
-
+       border-radius: 10px;
        padding:6px 10px;
        vertical-align: middle;
 }
@@ -149,7 +149,7 @@
     justify-content: space-evenly;
     max-width: 80%;
     margin: auto;
-    font-family: 'Ubuntu',sans-serif;
+    /* font-family: 'Ubuntu',sans-serif; */
     text-align: justify;
 }
 .paras{
@@ -167,8 +167,18 @@
     font-size: 40px;
 }
 .secSubTag{
+    /* text-align: center; */
     margin:30px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.steps{
+    font-size: medium;
+    margin: 15px auto;
+
+}
+.steps li{
+    padding: 4px 4px;
+    margin: 2px;
 }
 .library{
     padding:35px;
@@ -181,8 +191,55 @@
     font-family: ui-rounded;
     padding:10px;
 }
+.googlebtn{
+    margin-left:50px;
+    background-color: black;
+    color: white;
+    padding: 10px 14px;
+    border: 2px solid gray;
+    border-radius: 200px;
+    font-size: 17px;
+    cursor: pointer;
+    width:100px;
+    text-decoration: none;
+
+
+    /* background: #1F8CE9;
+    text-decoration: none;
+    margin:55px 45px;
+    min-width: 150px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 6px;
+    text-transform: capitalize;
+    font-weight: 500; */
+}
+.appbtn{
+    margin-left:80px;
+    background-color: black;
+    color: white;
+    padding: 10px 14px;
+    border: 2px solid gray;
+    border-radius: 200px;
+    font-size: 17px;
+    cursor: pointer;
+    width:100px;
+
+
+    text-decoration: none;
+    /* margin:55px 45px;
+    min-width: 150px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 6px;
+    text-transform: capitalize;
+    background: #EF5350; */
+}
+.thumbnail img{
+    width: 120%;
+}
 .thumbnail-left img{
-    width:350px;
+    width:170px;
 }
 .thumbnail-right img{
     width:400px;
@@ -206,6 +263,10 @@
    background-color: white;
    height:4px;
    margin:5px 3px;
+}
+#q{
+    line-height: 2;
+    border-radius: 20px;
 }
 @media only screen and (max-width:1145px){
     .nav-list{

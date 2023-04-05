@@ -1,5 +1,7 @@
 body{
- background-color: gray;
+ background-color:gray;
+ /* background: rgba(0, 0, 0, 0.7) url('../img/pexels-yurii-hlei-1545743.jpg'); */
+ /* background: linear-gradient(to right,#ff1088,#5330f3); */
 }
 .right h1{
     color: purple;
@@ -35,10 +37,10 @@ h1{
 .secondhalf img {
     text-align: center;
     justify-content: center;
-    width: 300px;
+    width: 285px;
     /* width:70%; */
     padding: 4px 16px;
-    border: 2px solid white;
+    border: 2px solid gray;
     /* if you want the rounded image */
     border-radius: 50px;
 }

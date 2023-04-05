@@ -1,9 +1,11 @@
 *{
     box-sizing: border-box;
 }
+
 .container{
     /* width:900px; */
-    width:1500px;
+    /* width:1330px; */
+    width: 1250;
     /* border:3px solid black; */
     margin:auto;
     /* background:red; */
@@ -15,29 +17,38 @@
     /* background:white; */
 }
 #Btech{
-    float:left;
-    width:49%;
-    color: white;
+    /* float:left; */
+    padding: 34px;
+    width:95%;
+    color: black;
 }#Mtech{
-    float:left;
-    width:50%;
-    color: white;
+    /* float:left; */
+    padding: 34px;
+    width:95%;
+    color: black;
+    /* color: white; */
 }
 #MBA{
-    float:left;
+    /* float:left; */
     /* width:48%; */
-    width:49%;
+    padding: 34px;
+    width:95%;
     clear:left;
-    color: white;
+    /* color: white; */
+    color: black;
 }
 #BCA{
-    float:left;
-    width:50%;
-    color: white;
+    /* float:left; */
+    padding: 34px;
+    width:95%;
+    color: black;
+    /* color: white; */
     /* clear: both; */
 }
 .background {
-    background: rgba(0, 0, 0, 0.7) url('../img/Reasons-to-go-to-college.webp');
+    background-color: gainsboro;
+    /* background-color: black; */
+    /* background: rgba(0, 0, 0, 0.7) url('../img/istockphoto-1336490790-612x612.jpg'); */
     background-size: cover;
     background-blend-mode: darken;
 }
@@ -45,10 +56,11 @@ p,h3{
     text-align: justify;
 }
 h1{
+    /* justify-content: center; */
     margin:23px auto;
-    width:445px;
+    width:700px;
     padding:34px;
-    color:white;
+    color:black;
 }
 .right-footer{
     text-align: center;

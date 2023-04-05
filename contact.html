@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,38 +8,61 @@
     <link rel="stylesheet" href="css/contact.css">
     <title>Contact Us</title>
 </head>
+
 <body>
-    <h1>St.John's College,Jaipur</h1>
+    <h1>LOPARK - YOUR OWN PARKING APP</h1>
     <div class="center">
         <!-- <h2>College:A place where a group of strangers meets that turns out to be a beautiful family at the end.</h2> -->
-        <marquee direction="left" scrollamount="12" >
-           <h2>College life is much more than those fun rides.It is a beginning of your new life,an entry level for your dream career.</h2> 
-        </marquee>
+        <!-- <marquee direction="left" scrollamount="12"> -->
+        <h2>LOPARK is not just about finding a parking spot. It's about making the most efficient use of our
+            urban space and resources.</h2>
+        <!-- </marquee> -->
     </div>
     <section class="container">
-    <div class="secondhalf">
-        <img src="img/depositphotos_68789187-stock-photo-students.jpg" alt="College Image">
-        <div class="admission"><h2>Contact For Admission</h2></div>
-        <ul type="disc">
-            <h3><li>+91-9660005673/7988653409</li></h3>
-            <h3><li>Toll free:1800 876 2001</li></h3>
-            <h3><li>info@stjohncollege.in</li></h3>
-        </ul>
-    </div>
-    <div class="right">
-        <h1>Enquiry Form</h1>
-        <div class="form">
-        <strong>NAME</strong><input class="forminput" type="text" name="name" id="name" placeholder="Enter your name"><br>
-        <strong>EMAIL</strong><input class="forminput" type="text" name="email" id="email" placeholder="Enter your email"><br>
-        <strong>PHONE NO</strong> <input class="forminput" type="text" name="phoneno" id="phoneno" placeholder="Enter your phone number"><br>
-        <strong>MESSEGE</strong><textarea class="forminput" name="message" id="text" cols="30" rows="7"></textarea><br>
-            <button class="btn btn-dark">
-               <strong>SUBMIT</strong> 
-            </button>
-    </div>
-    </div>
+        <div class="secondhalf">
+            <img src="img/png-transparent-parking-logo-stop-sign-car-parking-lot.png" alt="College Image">
+            <div class="admission">
+                <h2>Contact For Any Enquiry</h2>
+            </div>
+            <ul type="disc">
+                <h3>
+                    <li>+91-9660008012/7688949403</li>
+                </h3>
+                <h3>
+                    <li>Toll free:1800 876 2001</li>
+                </h3>
+                <h3>
+                    <li>info@lopark.in</li>
+                </h3>
+            </ul>
+        </div>
+        <div class="right">
+            <!-- Google form link--https://docs.google.com/forms/d/e/1FAIpQLSeWwFeVS7KOJOSENQYhl93DFAHjGSX3rqYMnGv87ht6_x8C3A/viewform?usp=sf_link -->
 
-   
+            <!-- <iframe
+                src="https://docs.google.com/forms/d/e/1FAIpQLSeWwFeVS7KOJOSENQYhl93DFAHjGSX3rqYMnGv87ht6_x8C3A/viewform?embedded=true"
+                width="640" height="850" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> -->
     
+            <form method="post" action="contact.php">
+                <h1>Enquiry Form</h1>
+             <div class="form">
+                <strong>Name</strong><input class="forminput" type="text" name="name" id="name"
+                    placeholder="Enter your name"><br>
+                <strong>Email Id</strong><input class="forminput" type="text" name="email" id="email"
+                    placeholder="Enter your email"><br>
+                <strong>Phone No</strong> <input class="forminput" type="text" name="phoneno" id="phoneno"
+                    placeholder="Enter your phone number"><br>
+                <strong>Enquiry Details</strong><textarea class="forminput" name="message" id="message" cols="30"
+                    rows="7"></textarea><br>
+                <button class="btn btn-dark">
+                    <strong>SUBMIT</strong>
+                </button>
+            </div>
+        </form>
+        </div> 
+
+
+
 </body>
+
 </html>

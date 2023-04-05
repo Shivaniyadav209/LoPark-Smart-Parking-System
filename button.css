@@ -27,7 +27,7 @@
 .moreText{
     display:none;
 }
-.read-more-btn{
+#readmorebtn1{
     /* background-color: black; */
     width: 150px;
     padding:8px 20px;
